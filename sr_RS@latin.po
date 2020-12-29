@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2020-12-10T13:37:09-07:00\n"
-"PO-Revision-Date: 2020-12-29 15:31+0100\n"
+"PO-Revision-Date: 2020-12-29 16:12+0100\n"
 "X-Generator: Poedit 2.4.2\n"
 "X-Domain: lifterlms\n"
 "Last-Translator: \n"
@@ -61,8 +61,8 @@ msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/abstracts/class-llms-rest-controller.php:204
 msgid ""
-"Column names to be searched. Accepts a single column or a comma separated "
-"list of columns."
+"Column names to be searched. Accepts a single column or a comma separated list "
+"of columns."
 msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/abstracts/class-llms-rest-controller.php:217
@@ -500,8 +500,8 @@ msgstr ""
 #. Translators: %1$s = opening anchor tag to capabilities doc; %2$s closing anchor tag.
 #: vendor/lifterlms/lifterlms-rest/includes/admin/class-llms-rest-admin-settings-api-keys.php:86
 msgid ""
-"The owner is used to determine what user %1$scapabilities%2$s are available "
-"to the API key."
+"The owner is used to determine what user %1$scapabilities%2$s are available to "
+"the API key."
 msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/admin/class-llms-rest-admin-settings-api-keys.php:91
@@ -1151,8 +1151,8 @@ msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/server/class-llms-rest-courses-controller.php:475
 msgid ""
-"Enrollment in this course opens on [lifterlms_course_info id="
-"\"{{course_id}}\" key=\"enrollment_start_date\"]."
+"Enrollment in this course opens on [lifterlms_course_info id=\"{{course_id}}\" "
+"key=\"enrollment_start_date\"]."
 msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/server/class-llms-rest-courses-controller.php:478
@@ -1166,9 +1166,8 @@ msgid ""
 "Determines the type of sales page content to display.<br> - <code>none</code> "
 "displays the course content.<br> - <code>content</code> displays alternate "
 "content from the <code>excerpt</code> property.<br> - <code>page</code> "
-"redirects to the WordPress page defined in <code>content_page_id</code>.<br> "
-"- <code>url</code> redirects to the URL defined in <code>content_page_url</"
-"code>"
+"redirects to the WordPress page defined in <code>content_page_id</code>.<br> - "
+"<code>url</code> redirects to the URL defined in <code>content_page_url</code>"
 msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/server/class-llms-rest-courses-controller.php:499
@@ -1283,8 +1282,8 @@ msgstr ""
 #: vendor/lifterlms/lifterlms-rest/includes/server/class-llms-rest-instructors-controller.php:110
 msgid ""
 "Exclude instructors who do not have permissions for the specified course(s) "
-"and/or membership(s). Accepts a single WP Post ID or a comma separated list "
-"of IDs."
+"and/or membership(s). Accepts a single WP Post ID or a comma separated list of "
+"IDs."
 msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/server/class-llms-rest-instructors-controller.php:132
@@ -1355,8 +1354,8 @@ msgid ""
 "li>\n"
 "\t\t\t\t\t\t<li>date: Lesson is made available at a specific date and time.</"
 "li>\n"
-"\t\t\t\t\t\t<li>enrollment: Lesson is made available a specific number of "
-"days after enrollment into the course.</li>\n"
+"\t\t\t\t\t\t<li>enrollment: Lesson is made available a specific number of days "
+"after enrollment into the course.</li>\n"
 "\t\t\t\t\t\t<li>start: Lesson is made available a specific number of days "
 "after the course's start date. Only available on courses with a "
 "access_opens_date.</li>\n"
@@ -1420,8 +1419,8 @@ msgstr ""
 msgid ""
 "Determines the action to take when content restricted by the membership is "
 "accessed by a non-member. - `none`: Remain on page and display the message "
-"`restriction_message`. - `membership`: Redirect to the membership's "
-"permalink. - `page`: Redirect to the permalink of the page identified by "
+"`restriction_message`. - `membership`: Redirect to the membership's permalink. "
+"- `page`: Redirect to the permalink of the page identified by "
 "`restriction_page_id`. - `custom`: Redirect to the URL identified by "
 "`restriction_url`."
 msgstr ""
@@ -1457,10 +1456,10 @@ msgstr ""
 
 #: vendor/lifterlms/lifterlms-rest/includes/server/class-llms-rest-memberships-controller.php:244
 msgid ""
-"Defines alternate content displayed to visitors and non-enrolled students "
-"when accessing the post. - `none` displays the post content. - `content` "
-"displays alternate content from the `excerpt` property. - `page` redirects to "
-"the WordPress page defined in `content_page_id`. - `url` redirects to the URL "
+"Defines alternate content displayed to visitors and non-enrolled students when "
+"accessing the post. - `none` displays the post content. - `content` displays "
+"alternate content from the `excerpt` property. - `page` redirects to the "
+"WordPress page defined in `content_page_id`. - `url` redirects to the URL "
 "defined in `content_page_url`."
 msgstr ""
 
@@ -1669,10 +1668,10 @@ msgstr ""
 #: vendor/lifterlms/lifterlms-blocks/includes/class-llms-blocks-status-tools.php:51
 msgid ""
 "Removes block editor code from all courses and lessons which were migrated to "
-"the block editor during an upgrade to WordPress 5.0 or later. If you "
-"installed the Classic Editor plugin after upgrading and see duplicate content "
-"items (such as the course syllabus or lesson mark complete button) this tool "
-"will remove the duplicates."
+"the block editor during an upgrade to WordPress 5.0 or later. If you installed "
+"the Classic Editor plugin after upgrading and see duplicate content items "
+"(such as the course syllabus or lesson mark complete button) this tool will "
+"remove the duplicates."
 msgstr ""
 
 #. Translators: %d = number of affected courses/lessons.
@@ -1694,9 +1693,9 @@ msgstr ""
 
 #. Description of the plugin
 msgid ""
-"LifterLMS is a powerful WordPress learning management system plugin that "
-"makes it easy to create, sell, and protect engaging online courses and "
-"training based membership websites."
+"LifterLMS is a powerful WordPress learning management system plugin that makes "
+"it easy to create, sell, and protect engaging online courses and training "
+"based membership websites."
 msgstr ""
 
 #: class-lifterlms.php:380 includes/admin/class.llms.admin.menus.php:167
@@ -1848,8 +1847,8 @@ msgstr ""
 
 #: includes/abstracts/abstract.llms.update.php:288
 msgid ""
-"This completion percentage is an estimate, please be patient and %1$sclick "
-"here%2$s for more information."
+"This completion percentage is an estimate, please be patient and %1$sclick here"
+"%2$s for more information."
 msgstr ""
 
 #: includes/abstracts/llms-abstract-email-provider.php:247
@@ -2196,8 +2195,8 @@ msgstr ""
 #. Translators: %1$s = Opening anchor tag; %2$s = Closing anchor tag.
 #: includes/admin/class-llms-mailhawk.php:78
 msgid ""
-"Email sending is currently disabled. %1$sVisit MailHawk Settings%2$s to "
-"enable sending."
+"Email sending is currently disabled. %1$sVisit MailHawk Settings%2$s to enable "
+"sending."
 msgstr ""
 
 #: includes/admin/class-llms-mailhawk.php:88
@@ -2543,8 +2542,8 @@ msgstr ""
 
 #: includes/admin/class.llms.admin.notices.core.php:115
 msgid ""
-"For starters you can configure manual payments on the %1$sCheckout Settings "
-"tab%2$s. Be sure to check out all the available %3$sLifterLMS Payment Gateways"
+"For starters you can configure manual payments on the %1$sCheckout Settings tab"
+"%2$s. Be sure to check out all the available %3$sLifterLMS Payment Gateways"
 "%4$s and install one later so that you can start selling your courses and "
 "memberships."
 msgstr ""
@@ -2552,9 +2551,9 @@ msgstr ""
 #: includes/admin/class.llms.admin.notices.core.php:180
 msgid ""
 "<strong>The current theme, %1$s, does not declare support for LifterLMS "
-"Sidebars.</strong> Course and Lesson sidebars may not work as expected. "
-"Please see our %2$sintegration guide%3$s or check out our %4$sLaunchPad%5$s "
-"theme which is designed specifically for use with LifterLMS."
+"Sidebars.</strong> Course and Lesson sidebars may not work as expected. Please "
+"see our %2$sintegration guide%3$s or check out our %4$sLaunchPad%5$s theme "
+"which is designed specifically for use with LifterLMS."
 msgstr ""
 
 #: includes/admin/class.llms.admin.notices.php:239
@@ -2621,8 +2620,8 @@ msgstr ""
 #: includes/admin/class.llms.admin.page.status.php:323
 msgid ""
 "Clears the cached data displayed on various reporting screens. This does not "
-"affect actual student progress, it only clears cached progress data. This "
-"data will be regenerated the next time it is accessed."
+"affect actual student progress, it only clears cached progress data. This data "
+"will be regenerated the next time it is accessed."
 msgstr ""
 
 #: includes/admin/class.llms.admin.page.status.php:324
@@ -3127,8 +3126,7 @@ msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.coupon.php:63
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.coupon.php:69
-#: includes/class.llms.ajax.handler.php:887
-#: includes/llms.functions.core.php:1113
+#: includes/class.llms.ajax.handler.php:887 includes/llms.functions.core.php:1113
 msgid "ID#"
 msgstr ""
 
@@ -3234,8 +3232,7 @@ msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.coupon.php:196
 msgid ""
-"Coupon will no longer be usable after this date. Leave blank for no "
-"expiration."
+"Coupon will no longer be usable after this date. Leave blank for no expiration."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.coupon.php:205
@@ -3263,8 +3260,8 @@ msgstr ""
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.coupon.php:264
 msgid ""
 "A Trial Discount Amount was not supplied. Trial Pricing Discount has "
-"automatically been disabled. Please re-enable Trial Pricing Discount and "
-"enter a Trial Discount Amount, then save this coupon again."
+"automatically been disabled. Please re-enable Trial Pricing Discount and enter "
+"a Trial Discount Amount, then save this coupon again."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.builder.php:115
@@ -3367,8 +3364,8 @@ msgstr ""
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:153
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.lesson.php:80
 msgid ""
-"Paste the url for a Wistia, Vimeo or Youtube video or a hosted video file. "
-"For a full list of supported providers see %s."
+"Paste the url for a Wistia, Vimeo or Youtube video or a hosted video file. For "
+"a full list of supported providers see %s."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:158
@@ -3452,8 +3449,8 @@ msgstr ""
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:232
 msgid ""
 "This message will be displayed to non-enrolled visitors once the Enrollment "
-"End Date has passed. You may use shortcodes like [lifterlms_course_info id="
-"\"%d\" key=\"enrollment_end_date\"] in this message."
+"End Date has passed. You may use shortcodes like [lifterlms_course_info id=\"%d"
+"\" key=\"enrollment_end_date\"] in this message."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:234
@@ -3497,8 +3494,7 @@ msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:281
 #: includes/functions/updates/llms-functions-updates-300.php:435
-msgid ""
-"This course closed on [lifterlms_course_info id=\"%d\" key=\"end_date\"]."
+msgid "This course closed on [lifterlms_course_info id=\"%d\" key=\"end_date\"]."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:282
@@ -3527,8 +3523,8 @@ msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:308
 msgid ""
-"Select a prerequisite course. Students must have completed the selected "
-"course before they can view or complete content in this course."
+"Select a prerequisite course. Students must have completed the selected course "
+"before they can view or complete content in this course."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.course.options.php:311
@@ -3674,8 +3670,8 @@ msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.engagement.php:207
 msgid ""
-"Enter the number of days to wait before triggering this engagement. Enter 0 "
-"or leave blank to trigger immediately."
+"Enter the number of days to wait before triggering this engagement. Enter 0 or "
+"leave blank to trigger immediately."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.engagement.php:209
@@ -3763,8 +3759,8 @@ msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.lesson.php:96
 msgid ""
-"Checking this box will allow guests to view the content of this lesson "
-"without registering or signing up for the course."
+"Checking this box will allow guests to view the content of this lesson without "
+"registering or signing up for the course."
 msgstr ""
 
 #: includes/admin/post-types/meta-boxes/class.llms.meta.box.lesson.php:100
@@ -4463,8 +4459,7 @@ msgstr ""
 
 #: includes/admin/reporting/tables/llms.table.achievements.php:59
 msgid ""
-"Are you sure you want to delete this achievement? This action cannot be "
-"undone!"
+"Are you sure you want to delete this achievement? This action cannot be undone!"
 msgstr ""
 
 #: includes/admin/reporting/tables/llms.table.achievements.php:176
@@ -4499,8 +4494,7 @@ msgstr ""
 
 #: includes/admin/reporting/tables/llms.table.certificates.php:69
 msgid ""
-"Are you sure you want to delete this certificate? This action cannot be "
-"undone!"
+"Are you sure you want to delete this certificate? This action cannot be undone!"
 msgstr ""
 
 #: includes/admin/reporting/tables/llms.table.certificates.php:196
@@ -4875,8 +4869,8 @@ msgstr ""
 #: includes/admin/settings/class.llms.settings.accounts.php:115
 msgid ""
 "Each endpoint allows students to view more information or manage parts of "
-"their account. Each endpoint should be unique, URL-safe, and can be left "
-"blank to disable the endpoint completely."
+"their account. Each endpoint should be unique, URL-safe, and can be left blank "
+"to disable the endpoint completely."
 msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:120
@@ -5045,8 +5039,8 @@ msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:304
 msgid ""
-"Select a page where your site's Privacy Policy is described. See "
-"%1$sWordPress Privacy Settings%2$s for more information"
+"Select a page where your site's Privacy Policy is described. See %1$sWordPress "
+"Privacy Settings%2$s for more information"
 msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:310
@@ -5081,8 +5075,8 @@ msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:345
 msgid ""
-"When enabled all student data related to course and membership activities "
-"will be removed."
+"When enabled all student data related to course and membership activities will "
+"be removed."
 msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:346
@@ -5140,8 +5134,8 @@ msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:395
 msgid ""
-"Allow registration on the Account Access Page without enrolling in a course "
-"or membership."
+"Allow registration on the Account Access Page without enrolling in a course or "
+"membership."
 msgstr ""
 
 #: includes/admin/settings/class.llms.settings.accounts.php:435
@@ -5261,8 +5255,8 @@ msgstr ""
 
 #: includes/admin/settings/class.llms.settings.checkout.php:250
 msgid ""
-"Select the country LifterLMS should use as the default during transactions "
-"and registrations."
+"Select the country LifterLMS should use as the default during transactions and "
+"registrations."
 msgstr ""
 
 #: includes/admin/settings/class.llms.settings.checkout.php:260
@@ -5342,8 +5336,8 @@ msgstr ""
 
 #: includes/admin/settings/class.llms.settings.courses.php:66
 msgid ""
-"Enabling this setting allows students to mark a lesson as \"incomplete\" "
-"after they have completed a lesson."
+"Enabling this setting allows students to mark a lesson as \"incomplete\" after "
+"they have completed a lesson."
 msgstr ""
 
 #: includes/admin/settings/class.llms.settings.courses.php:69
@@ -5671,8 +5665,8 @@ msgstr ""
 #: includes/admin/tools/class-llms-admin-tool-recurring-payment-rescheduler.php:42
 msgid ""
 "Check active recurring orders to ensure their recurring payment action is "
-"properly scheduled for the next payment. If a recurring payment is due and "
-"not scheduled it will be rescheduled."
+"properly scheduled for the next payment. If a recurring payment is due and not "
+"scheduled it will be rescheduled."
 msgstr ""
 
 #. Translators: %d = the number of pending batches.
@@ -6451,9 +6445,9 @@ msgstr ""
 
 #: includes/admin/views/setup-wizard/step-coupon.php:15
 msgid ""
-"By allowing us to collect non-sensitive usage information and diagnostic "
-"data, you'll be providing us with information we can use to make the future "
-"of LifterLMS stronger and more powerful with every update!"
+"By allowing us to collect non-sensitive usage information and diagnostic data, "
+"you'll be providing us with information we can use to make the future of "
+"LifterLMS stronger and more powerful with every update!"
 msgstr ""
 
 #: includes/admin/views/setup-wizard/step-coupon.php:16
@@ -6681,8 +6675,8 @@ msgstr ""
 
 #: includes/class.llms.ajax.handler.php:648
 msgid ""
-"There was an error recording your answer the quiz. Please return to the "
-"lesson and begin again."
+"There was an error recording your answer the quiz. Please return to the lesson "
+"and begin again."
 msgstr ""
 
 #: includes/class.llms.ajax.handler.php:939
@@ -6832,7 +6826,7 @@ msgstr ""
 
 #: includes/class.llms.install.php:335
 msgid "Purchase"
-msgstr ""
+msgstr "Kupovina"
 
 #: includes/class.llms.install.php:454
 msgctxt "course difficulty name"
@@ -7416,11 +7410,11 @@ msgstr "Minimalna snaga lozinke %s je neophodna."
 
 #: includes/class.llms.person.handler.php:391
 msgid ""
-"The password must be at least 6 characters in length. Consider adding "
-"letters, numbers, and symbols to increase the password strength."
+"The password must be at least 6 characters in length. Consider adding letters, "
+"numbers, and symbols to increase the password strength."
 msgstr ""
-"Lozinka mora imati najmanje 6 znakova. Razmislite o dodavanju slova, brojeva "
-"i simbola da biste povećali snagu lozinke."
+"Lozinka mora imati najmanje 6 znakova. Razmislite o dodavanju slova, brojeva i "
+"simbola da biste povećali snagu lozinke."
 
 #: includes/class.llms.person.handler.php:404
 msgid "Change Password"
@@ -7476,8 +7470,7 @@ msgstr "Nalog sa adresom e-pošte „%s“ već postoji."
 
 #: includes/class.llms.person.handler.php:994
 msgid "The username \"%s\" is invalid, please try a different username."
-msgstr ""
-"Korisničko ime „%s“ je nevažeće, pokušajte sa drugim korisničkim imenom."
+msgstr "Korisničko ime „%s“ je nevažeće, pokušajte sa drugim korisničkim imenom."
 
 #: includes/class.llms.person.handler.php:998
 msgid "An account with the username \"%s\" already exists."
@@ -7592,8 +7585,7 @@ msgctxt "Order status"
 msgid "Refunded"
 msgstr "Refundirano"
 
-#: includes/class.llms.post-types.php:175
-#: includes/class.llms.post-types.php:1081
+#: includes/class.llms.post-types.php:175 includes/class.llms.post-types.php:1081
 msgid "Refunded <span class=\"count\">(%s)</span>"
 msgid_plural "Refunded <span class=\"count\">(%s)</span>"
 msgstr[0] "Refundirano <span class=\"count\">(%s)</span>"
@@ -7605,8 +7597,7 @@ msgctxt "Order status"
 msgid "Failed"
 msgstr "Neuspešno"
 
-#: includes/class.llms.post-types.php:179
-#: includes/class.llms.post-types.php:1065
+#: includes/class.llms.post-types.php:179 includes/class.llms.post-types.php:1065
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] "Neuspešno <span class=\"count\">(%s)</span>"
@@ -9084,8 +9075,7 @@ msgstr "%s ne podržava periodična plaćanja i ne može da obradi ovu transakc
 #: includes/controllers/class.llms.controller.orders.php:749
 #: includes/functions/llms.functions.order.php:46
 msgid "%s does not support single payments and cannot process this transaction."
-msgstr ""
-"%s ne podržava pojedinačna plaćanja i ne može da obradi ovu transakciju."
+msgstr "%s ne podržava pojedinačna plaćanja i ne može da obradi ovu transakciju."
 
 #: includes/controllers/class.llms.controller.orders.php:754
 #: includes/functions/llms.functions.order.php:52
@@ -9264,8 +9254,8 @@ msgid ""
 "The lesson \"%1$s\" cannot be accessed until the required prerequisite course "
 "\"%2$s\" is completed."
 msgstr ""
-"Ne može se pristupiti lekciji „%1$s“ dok se ne završi traženi preduslovni "
-"kurs „%2$s“."
+"Ne može se pristupiti lekciji „%1$s“ dok se ne završi traženi preduslovni kurs "
+"„%2$s“."
 
 #. Translators: %$1s = lesson title; %2$s link of the track prerequisite
 #: includes/functions/llms.functions.access.php:222
@@ -9411,7 +9401,7 @@ msgstr ""
 
 #: includes/functions/llms.functions.currency.php:86
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bosna i Hercegovina"
 
 #: includes/functions/llms.functions.currency.php:87
 msgid "Botswana"
@@ -9515,7 +9505,7 @@ msgstr ""
 
 #: includes/functions/llms.functions.currency.php:112
 msgid "Croatia"
-msgstr ""
+msgstr "Hrvatska"
 
 #: includes/functions/llms.functions.currency.php:113
 msgid "Cuba"
@@ -9811,7 +9801,7 @@ msgstr ""
 
 #: includes/functions/llms.functions.currency.php:186
 msgid "Macedonia"
-msgstr ""
+msgstr "Makedonija"
 
 #: includes/functions/llms.functions.currency.php:187
 msgid "Madagascar"
@@ -10071,7 +10061,7 @@ msgstr ""
 
 #: includes/functions/llms.functions.currency.php:251
 msgid "Serbia"
-msgstr ""
+msgstr "Srbija"
 
 #: includes/functions/llms.functions.currency.php:252
 msgid "Seychelles"
@@ -10467,7 +10457,7 @@ msgstr ""
 
 #: includes/functions/llms.functions.currency.php:413
 msgid "Euro"
-msgstr ""
+msgstr "Evro"
 
 #: includes/functions/llms.functions.currency.php:414
 msgid "Fijian dollar"
@@ -10763,7 +10753,7 @@ msgstr ""
 
 #: includes/functions/llms.functions.currency.php:487
 msgid "Serbian dinar"
-msgstr ""
+msgstr "Srpski dinar"
 
 #: includes/functions/llms.functions.currency.php:488
 msgid "Russian ruble"
@@ -10978,8 +10968,7 @@ msgstr "veoma slabo"
 #: includes/functions/llms.functions.privacy.php:41
 msgid ""
 "Your personal data will be used to process your enrollment, support your "
-"experience on this website, and for other purposes described in our "
-"{{policy}}."
+"experience on this website, and for other purposes described in our {{policy}}."
 msgstr ""
 "Vaši lični podaci će se koristiti za obradu vašeg upisa, podršku vašem "
 "iskustvu na ovoj veb lokaciji i u druge svrhe opisane u našoj {{policy}}."
@@ -11079,9 +11068,9 @@ msgstr ""
 
 #: includes/functions/updates/llms-functions-updates-3130.php:52
 msgid ""
-"Welcome to LifterLMS 3.13.0! We've packed a ton of features into this "
-"release: Take a moment to get familiar with the all new %1$scourse builder"
-"%3$s and our new %2$suser roles%3$s."
+"Welcome to LifterLMS 3.13.0! We've packed a ton of features into this release: "
+"Take a moment to get familiar with the all new %1$scourse builder%3$s and our "
+"new %2$suser roles%3$s."
 msgstr ""
 
 #: includes/functions/updates/llms-functions-updates-3160.php:650
@@ -11109,8 +11098,8 @@ msgstr "Izaberite forume"
 
 #: includes/integrations/class.llms.integration.bbpress.php:135
 msgid ""
-"Add forums which will only be available to students currently enrolled in "
-"this course."
+"Add forums which will only be available to students currently enrolled in this "
+"course."
 msgstr ""
 
 #: includes/integrations/class.llms.integration.bbpress.php:139
@@ -11384,8 +11373,7 @@ msgstr "Neograničeno"
 
 #: includes/models/model.llms.coupon.php:284
 msgid "This coupon has reached its usage limit and can no longer be used."
-msgstr ""
-"Ovaj kupon je dostigao ograničenje upotrebe i više se ne može koristiti."
+msgstr "Ovaj kupon je dostigao ograničenje upotrebe i više se ne može koristiti."
 
 #: includes/models/model.llms.coupon.php:288
 msgid "This coupon expired on %s and can no longer be used."
@@ -11513,8 +11501,8 @@ msgid ""
 "Requested refund amount was %1$s, the maximum possible refund for this "
 "transaction is %2$s."
 msgstr ""
-"Traženi iznos povrata bio je %1$s, maksimalni mogući povraćaj sredstava za "
-"ovu transakciju je %2$s."
+"Traženi iznos povrata bio je %1$s, maksimalni mogući povraćaj sredstava za ovu "
+"transakciju je %2$s."
 
 #: includes/models/model.llms.transaction.php:247
 msgid "manual refund"
@@ -11949,8 +11937,7 @@ msgstr "Ažurirajte način plaćanja"
 
 #: includes/notifications/views/class.llms.notification.view.payment.retry.php:255
 msgid "Automatic payment for %1$s failed, retry scheduled for %2$s"
-msgstr ""
-"Automatsko plaćanje za %1$s nije uspelo, ponovni pokušaj zakazan za %2$s"
+msgstr "Automatsko plaćanje za %1$s nije uspelo, ponovni pokušaj zakazan za %2$s"
 
 #: includes/notifications/views/class.llms.notification.view.payment.retry.php:267
 msgid "Automatic payment failed for order #%s"
@@ -12047,8 +12034,7 @@ msgstr "%s je završio sekciju"
 
 #: includes/notifications/views/class.llms.notification.view.student.welcome.php:39
 msgid "Here's some helpful information to help you get started at %s."
-msgstr ""
-"Evo nekoliko korisnih informacija koje će vam pomoći da započnete sa %s."
+msgstr "Evo nekoliko korisnih informacija koje će vam pomoći da započnete sa %s."
 
 #: includes/notifications/views/class.llms.notification.view.student.welcome.php:40
 msgid "Your Login"
@@ -12273,15 +12259,15 @@ msgid ""
 "This sample language includes the basics around what personal data your "
 "learning platform may be collecting, storing and sharing, as well as who may "
 "have access to that data. Depending on what settings are enabled and which "
-"additional add-ons are used, the specific information shared by your site "
-"will vary. We recommend consulting with a lawyer when deciding what "
-"information to disclose on your privacy policy."
+"additional add-ons are used, the specific information shared by your site will "
+"vary. We recommend consulting with a lawyer when deciding what information to "
+"disclose on your privacy policy."
 msgstr ""
-"Ovaj uzorak jezika uključuje osnove oko toga koje lične podatke vaša "
-"platforma za učenje možda prikuplja, čuva i deli, kao i ko može imati pristup "
-"tim podacima. U zavisnosti od toga koja podešavanja su omogućena i koji se "
-"dodatni dodaci koriste, određene informacije koje deli vaša veb lokacija će "
-"se razlikovati. Preporučujemo da se obratite advokatu kada odlučujete koje "
+"Ovaj uzorak jezika uključuje osnove oko toga koje lične podatke vaša platforma "
+"za učenje možda prikuplja, čuva i deli, kao i ko može imati pristup tim "
+"podacima. U zavisnosti od toga koja podešavanja su omogućena i koji se dodatni "
+"dodaci koriste, određene informacije koje deli vaša veb lokacija će se "
+"razlikovati. Preporučujemo da se obratite advokatu kada odlučujete koje "
 "informacije ćete otkriti u svojoj politici privatnosti."
 
 #: includes/privacy/class-llms-privacy.php:150
@@ -12289,8 +12275,8 @@ msgid ""
 "We collect information about you during the registration, enrollment, and "
 "checkout processes on our site."
 msgstr ""
-"Informacije o vama prikupljamo tokom procesa registracije, upisa i plaćanja "
-"na našoj veb lokaciji."
+"Informacije o vama prikupljamo tokom procesa registracije, upisa i plaćanja na "
+"našoj veb lokaciji."
 
 #: includes/privacy/class-llms-privacy.php:151
 msgid "What we collect and store"
@@ -12299,9 +12285,9 @@ msgstr "Ono što sakupljamo i skladištimo"
 #: includes/privacy/class-llms-privacy.php:152
 msgid ""
 "When you register an account with us, we’ll ask you to provide information "
-"including your name, billing address, email address, phone number, credit "
-"card/payment details and optional account information like username and "
-"password. We’ll use this information for purposes, such as, to:"
+"including your name, billing address, email address, phone number, credit card/"
+"payment details and optional account information like username and password. "
+"We’ll use this information for purposes, such as, to:"
 msgstr ""
 "Kada kod nas registrujete nalog, tražićemo od vas da navedete informacije, "
 "uključujući vaše ime, adresu za obračun, adresu e-pošte, broj telefona, "
@@ -12310,8 +12296,7 @@ msgstr ""
 "su:"
 
 #: includes/privacy/class-llms-privacy.php:154
-msgid ""
-"Send you information about your account, orders, courses, and memberships"
+msgid "Send you information about your account, orders, courses, and memberships"
 msgstr ""
 "Pošaljemo vam informacije o vašem nalogu, porudžbinama, kursevima i članstvima"
 
@@ -12438,9 +12423,9 @@ msgid ""
 "purpose. This could include, but may not be limited to, analytics, marketing, "
 "payment gateways, and third party embeds."
 msgstr ""
-"U ovom odeljku treba da navedete sa kim delite podatke i u koju svrhu. To "
-"može da uključuje, ali ne mora biti ograničeno na analitiku, marketing, "
-"mrežne ulaze i ugrađivanje treće strane."
+"U ovom odeljku treba da navedete sa kim delite podatke i u koju svrhu. To može "
+"da uključuje, ali ne mora biti ograničeno na analitiku, marketing, mrežne "
+"ulaze i ugrađivanje treće strane."
 
 #: includes/privacy/class-llms-privacy.php:182
 msgid ""
@@ -12558,8 +12543,7 @@ msgstr "Učiniti obris sklopivim?"
 
 #: includes/widgets/class.llms.widget.course.syllabus.php:57
 msgid ""
-"Allow students to hide lessons within a section by clicking the section "
-"titles."
+"Allow students to hide lessons within a section by clicking the section titles."
 msgstr ""
 "Dozvolite učenicima da sakriju lekcije u odeljku klikom na naslove odeljaka."
 
@@ -12595,650 +12579,671 @@ msgstr "Prilagođeno"
 #: templates/admin/analytics/analytics.php:62
 #: templates/admin/reporting/nav-filters.php:42
 msgid "Go"
-msgstr ""
+msgstr "Napred"
 
 #: templates/admin/analytics/analytics.php:66
 #: templates/admin/reporting/nav-filters.php:46
 msgid "Toggle Filters"
-msgstr ""
+msgstr "Uključi / isključi filtere"
 
 #: templates/admin/analytics/analytics.php:99
 #: templates/admin/reporting/nav-filters.php:81
 msgid "Filter by Course(s)"
-msgstr ""
+msgstr "Filtriraj prema kursevima"
 
 #: templates/admin/analytics/analytics.php:101
 #: templates/admin/analytics/analytics.php:113
 #: templates/admin/reporting/nav-filters.php:83
 #: templates/admin/reporting/nav-filters.php:95
 msgid "(ID# %d)"
-msgstr ""
+msgstr "(ID# %d)"
 
 #: templates/admin/analytics/analytics.php:111
 #: templates/admin/reporting/nav-filters.php:93
 msgid "Filter by Memberships(s)"
-msgstr ""
+msgstr "Filtriraj prema članstvima"
 
 #: templates/admin/analytics/analytics.php:120
 #: templates/admin/reporting/nav-filters.php:102
 msgid "Apply Filters"
-msgstr ""
+msgstr "Primeni filtere"
 
 #: templates/admin/notices/db-update.php:17
 msgid "The LifterLMS database needs to be updated to the latest version."
-msgstr ""
+msgstr "Bazu podataka LifterLMS treba ažurirati na najnoviju verziju."
 
 #: templates/admin/notices/db-update.php:18
 msgid ""
 "The update will only take a few minutes and it will run in the background. A "
 "notice like this will let you know when it's finished."
 msgstr ""
+"Ažuriranje će trajati samo nekoliko minuta i radiće u pozadini. Obaveštenje "
+"poput ovog obavestiće vas kada završi."
 
 #: templates/admin/notices/db-update.php:19
 msgid ""
 "See the %1$sdatabase update log%2$s for a complete list of changes scheduled "
 "for each upgrade."
 msgstr ""
+"Pogledajte spisak ažuriranja %1$s database %2$s za kompletnu listu promena "
+"zakazanih za svaku nadogradnju."
 
 #: templates/admin/notices/db-update.php:20
 msgid "Run the Updater"
-msgstr ""
+msgstr "Pokreni ažuriranje"
 
 #: templates/admin/notices/db-update.php:24
 msgid ""
 "We strongly recommended that you backup your database before proceeding. Are "
 "you sure you wish to run the updater now?"
 msgstr ""
+"Preporučujemo vam da napravite sigurnosnu kopiju baze podataka pre nego što "
+"nastavite. Da li ste sigurni da sada želite da pokrenete program za ažuriranje?"
 
 #: templates/admin/notices/db-updating.php:18
 msgid "LifterLMS database update"
-msgstr ""
+msgstr "Ažuriranje baze podataka LifterLMS"
 
 #: templates/admin/notices/db-updating.php:18
 msgid "Your database is being upgraded in the background."
-msgstr ""
+msgstr "Vaša baza podataka se nadograđuje u pozadini."
 
 #: templates/admin/notices/db-updating.php:19
 msgid "Click here for database update FAQs"
-msgstr ""
+msgstr "Kliknite ovde za česta pitanja o ažuriranju baze podataka"
 
 #: templates/admin/notices/db-updating.php:21
 msgid "Taking too long? Click here to run the update now."
-msgstr ""
+msgstr "Predugo? Kliknite ovde da biste odmah pokrenuli ažuriranje."
 
 #: templates/admin/notices/staging.php:18
 msgid "It looks like you may have installed LifterLMS on a staging site!"
-msgstr ""
+msgstr "Izgleda da ste možda instalirali LifterLMS na scenskoj lokaciji!"
 
 #: templates/admin/notices/staging.php:20
 msgid ""
-"LifterLMS watches for potential signs of a staging site and disables "
-"automatic payments so that your students do not receive duplicate charges."
+"LifterLMS watches for potential signs of a staging site and disables automatic "
+"payments so that your students do not receive duplicate charges."
 msgstr ""
+"LifterLMS nadgleda potencijalne znakove inscenacionog sajta i onemogućava "
+"automatsko plaćanje tako da vaši studenti ne dobijaju dvostruke troškove."
 
 #: templates/admin/notices/staging.php:25
 msgid ""
-"You can choose to enable automatic recurring payments using the buttons "
-"below. If you're not sure what to do, you can learn more %1$shere%2$s. You "
-"can always change your mind later by clicking \"Reset Automatic Payments\" on "
-"the LifterLMS General Settings screen under Tools and Utilities."
+"You can choose to enable automatic recurring payments using the buttons below. "
+"If you're not sure what to do, you can learn more %1$shere%2$s. You can always "
+"change your mind later by clicking \"Reset Automatic Payments\" on the "
+"LifterLMS General Settings screen under Tools and Utilities."
 msgstr ""
+"Pomoću dugmadi u nastavku možete da omogućite automatsko ponavljanje plaćanja. "
+"Ako niste sigurni šta da radite, možete da saznate više %1$s here %2$s. Uvek "
+"se možete predomisliti kasnije klikom na „Resetuj automatska plaćanja“ na "
+"ekranu Opšte postavke LifterLMS-a u okviru Alati i uslužni programi."
 
 #: templates/admin/notices/staging.php:33
 msgid "Leave Automatic Payments Disabled"
-msgstr ""
+msgstr "Ostavite onemogućeno automatsko plaćanje"
 
 #: templates/admin/notices/staging.php:35
 msgid "Enable Automatic Payments"
-msgstr ""
+msgstr "Omogućite automatsko plaćanje"
 
 #: templates/admin/post-types/order-details.php:29
 msgid "This order was processed in the gateway's testing mode"
-msgstr ""
+msgstr "Ova porudžbina je obrađena u režimu testiranja mrežnog prolaza"
 
 #: templates/admin/post-types/order-details.php:36
 msgid "Processed by %s"
-msgstr ""
+msgstr "Obradio %s"
 
 #: templates/admin/post-types/order-details.php:54
 msgid "Access Plan Information"
-msgstr ""
+msgstr "Informacije o planu pristupa"
 
 #: templates/admin/post-types/order-details.php:57
 #: templates/admin/post-types/order-details.php:76
 #: templates/admin/post-types/order-details.php:234
 msgid "Name:"
-msgstr ""
+msgstr "Ime:"
 
 #: templates/admin/post-types/order-details.php:63
 #: templates/admin/post-types/order-details.php:82
 msgid "SKU:"
-msgstr ""
+msgstr "Šifra proizvoda:"
 
 #: templates/admin/post-types/order-details.php:73
 msgid "Product Information"
-msgstr ""
+msgstr "Informacije o proizvodu"
 
 #: templates/admin/post-types/order-details.php:96
 msgid "Trial Information"
-msgstr ""
+msgstr "Informacije o probnom periodu"
 
 #: templates/admin/post-types/order-details.php:100
 #: templates/admin/post-types/order-details.php:124
 msgid "Original Total:"
-msgstr ""
+msgstr "Originalna cena:"
 
 #: templates/admin/post-types/order-details.php:105
 #: templates/admin/post-types/order-details.php:138
 msgid "Coupon Discount:"
-msgstr ""
+msgstr "Popust sa kuponom:"
 
 #: templates/admin/post-types/order-details.php:113
 #: templates/admin/post-types/order-details.php:147
 msgid "Total:"
-msgstr ""
+msgstr "Ukupno:"
 
 #: templates/admin/post-types/order-details.php:115
 #: templates/admin/post-types/order-details.php:160
 #: templates/myaccount/view-order.php:74 templates/myaccount/view-order.php:118
 msgid "for %1$d %2$s"
 msgid_plural "for %1$d %2$ss"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "za %1$d %2$s"
+msgstr[1] "za %1$d %2$s"
+msgstr[2] "za %1$d %2$s"
 
 #: templates/admin/post-types/order-details.php:120
 msgid "Payment Information"
-msgstr ""
+msgstr "Informacije o plaćanju"
 
 #: templates/admin/post-types/order-details.php:130
 msgid "Sale Discount:"
-msgstr ""
+msgstr "Informacije o popustu:"
 
 #: templates/admin/post-types/order-details.php:153
 #: templates/myaccount/view-order.php:114
 msgid "Every %2$s"
 msgid_plural "Every %1$d %2$ss"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Svakih %2$s"
+msgstr[1] "Svakih %2$s"
+msgstr[2] "Svakih %2$s"
 
 #: templates/admin/post-types/order-details.php:175
 msgid "Customer Information"
-msgstr ""
+msgstr "Informacije o kupcu"
 
 #: templates/admin/post-types/order-details.php:178
 msgid "Buyer Name:"
-msgstr ""
+msgstr "Ime kupca:"
 
 #: templates/admin/post-types/order-details.php:187
 msgid "Buyer Email:"
-msgstr ""
+msgstr "Email kupca:"
 
 #: templates/admin/post-types/order-details.php:193
 msgid "Buyer Address:"
-msgstr ""
+msgstr "Adresa kupca:"
 
 #: templates/admin/post-types/order-details.php:207
 msgid "Buyer Phone:"
-msgstr ""
+msgstr "Telefon kupca:"
 
 #: templates/admin/post-types/order-details.php:214
 msgid "Buyer IP Address:"
-msgstr ""
+msgstr "IP adresa kupca:"
 
 #: templates/admin/post-types/order-details.php:231
 msgid "Gateway Information"
-msgstr ""
+msgstr "Informacije o mrežnom prolazu"
 
 #: templates/admin/post-types/order-transactions.php:28
 msgid "Refunded"
-msgstr ""
+msgstr "Refundirano"
 
 #: templates/admin/post-types/order-transactions.php:31
 msgid "Source"
-msgstr ""
+msgstr "Izvor"
 
 #: templates/admin/post-types/order-transactions.php:89
 msgid "Resend Receipt"
-msgstr ""
+msgstr "Ponovo pošalji račun"
 
 #: templates/admin/post-types/order-transactions.php:108
 msgid "View all"
-msgstr ""
+msgstr "Prikaži sve"
 
 #: templates/admin/post-types/order-transactions.php:112
 msgid "Show Less Info"
-msgstr ""
+msgstr "Prikaži manje informacija"
 
 #: templates/admin/post-types/order-transactions.php:112
 msgid "Show More Info"
-msgstr ""
+msgstr "Prikaži više informacija"
 
 #: templates/admin/post-types/order-transactions.php:125
 msgid "Refund Amount:"
-msgstr ""
+msgstr "Iznos povraćaja sredstava:"
 
 #: templates/admin/post-types/order-transactions.php:130
 msgid "Refund Note (optional):"
-msgstr ""
+msgstr "Napomena o povraćaju sredstava (opcionalno):"
 
 #: templates/admin/post-types/order-transactions.php:135
 msgid "The refund will be recorded and you will need to manually issue a refund"
 msgstr ""
+"Refundacija će biti evidentirana i moraćete da izvršite povraćaj sredstava "
+"ručno"
 
 #: templates/admin/post-types/order-transactions.php:135
 msgid "Refund Manually"
-msgstr ""
+msgstr "Ručan povraćaj novca"
 
 #: templates/admin/post-types/order-transactions.php:136
 msgctxt "refund via payment gateway"
 msgid "Refund via %s"
-msgstr ""
+msgstr "Refundiraj putem %s"
 
 #: templates/admin/post-types/order-transactions.php:157
 msgid "Payment Amount:"
-msgstr ""
+msgstr "Iznos za plaćanje:"
 
 #: templates/admin/post-types/order-transactions.php:162
 msgid "Payment Source (optional):"
-msgstr ""
+msgstr "Izvor plaćanja (opcionalno):"
 
 #: templates/admin/post-types/order-transactions.php:167
 msgid "Payment Transaction ID (optional):"
-msgstr ""
+msgstr "ID transakcije plaćanja (opcionalno):"
 
 #: templates/admin/post-types/order-transactions.php:172
 msgid "Payment Note (optional):"
-msgstr ""
+msgstr "Napomena o plaćanju (opcionalno):"
 
 #: templates/admin/post-types/order-transactions.php:177
 msgid "Record Payment"
-msgstr ""
+msgstr "Evidencija plaćanja"
 
 #: templates/admin/post-types/students.php:31
 msgid "Enroll New Students"
-msgstr ""
+msgstr "Upiši nove studente"
 
 #: templates/admin/post-types/students.php:38
 msgid "Enroll Students"
-msgstr ""
+msgstr "Upiši studente"
 
 #: templates/admin/reporting/reporting.php:56
 msgid "LifterLMS Reporting Beta"
-msgstr ""
+msgstr "LifterLMS izveštavanje Beta"
 
 #: templates/admin/reporting/tabs/courses/overview.php:44
 msgid "Course Overview"
-msgstr ""
+msgstr "Pregled kursa"
 
 #: templates/admin/reporting/tabs/courses/overview.php:57
 #: templates/admin/reporting/tabs/memberships/overview.php:55
 msgid "Currently enrolled students"
-msgstr ""
+msgstr "Trenutno upisani studenti"
 
 #: templates/admin/reporting/tabs/courses/overview.php:68
 msgid "Current average progress"
-msgstr ""
+msgstr "Trenutni prosečni napredak"
 
 #: templates/admin/reporting/tabs/courses/overview.php:79
 msgid "Current average grade"
-msgstr ""
+msgstr "Trenutna prosečna ocena"
 
 #: templates/admin/reporting/tabs/courses/overview.php:89
 #: templates/admin/reporting/tabs/memberships/overview.php:66
 msgid "New orders %s"
-msgstr ""
+msgstr "Nove porudžbine %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:100
 #: templates/admin/reporting/tabs/memberships/overview.php:78
 msgid "Total sales %s"
-msgstr ""
+msgstr "Ukupna prodaja %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:111
 #: templates/admin/reporting/tabs/memberships/overview.php:88
 msgid "New enrollments %s"
-msgstr ""
+msgstr "Novi upisi %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:121
 #: templates/admin/reporting/tabs/memberships/overview.php:98
 msgid "Unenrollments %s"
-msgstr ""
+msgstr "Ispisi %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:132
 msgid "Lessons completed %s"
-msgstr ""
+msgstr "Završene lekcije %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:142
 msgid "Course completions %s"
-msgstr ""
+msgstr "Kompletiranje kursa %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:153
 #: templates/admin/reporting/tabs/memberships/overview.php:110
 msgid "Achievements earned %s"
-msgstr ""
+msgstr "Dostignuća osvojena %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:164
 #: templates/admin/reporting/tabs/memberships/overview.php:121
 msgid "Certificates earned %s"
-msgstr ""
+msgstr "Dobijeni sertifikati %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:175
 #: templates/admin/reporting/tabs/memberships/overview.php:132
 msgid "Emails sent %s"
-msgstr ""
+msgstr "Email-ovi poslati %s"
 
 #: templates/admin/reporting/tabs/courses/overview.php:186
 #: templates/admin/reporting/tabs/memberships/overview.php:143
 #: templates/admin/reporting/tabs/quizzes/overview.php:103
 #: templates/admin/reporting/tabs/students/information.php:119
 msgid "Recent events"
-msgstr ""
+msgstr "Skorašnji dešavanja"
 
 #: templates/admin/reporting/tabs/memberships/overview.php:42
 msgid "Membership Overview"
-msgstr ""
+msgstr "Pregled članstva"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:59
 msgid "Correct answers"
-msgstr ""
+msgstr "Tačni odgovori"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:70
 msgid "Points earned"
-msgstr ""
+msgstr "Osvojeni poeni"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:128
 msgid "Time Elapsed"
-msgstr ""
+msgstr "Vreme proteklo"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:137
 msgid "Answers"
-msgstr ""
+msgstr "Odgovori"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:148
 msgid "Start a Review"
-msgstr ""
+msgstr "Započni recenziju"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:152
 msgid "Save Review"
-msgstr ""
+msgstr "Usnimi recenziju"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:158
 msgid "Delete Attempt"
-msgstr ""
+msgstr "Obriši pokušaj"
 
 #: templates/admin/reporting/tabs/quizzes/attempt.php:172
 msgid "Additional Attempts"
-msgstr ""
+msgstr "Dodatni pokušaji"
 
 #: templates/admin/reporting/tabs/quizzes/overview.php:45
 msgid "Quiz Overview"
-msgstr ""
+msgstr "Pregled kviza"
 
 #: templates/admin/reporting/tabs/quizzes/overview.php:59
 msgid "Attempts %s"
-msgstr ""
+msgstr "Pokušaji %s"
 
 #: templates/admin/reporting/tabs/quizzes/overview.php:71
 msgid "Average grade %s"
-msgstr ""
+msgstr "Prosečna ocena %s"
 
 #: templates/admin/reporting/tabs/quizzes/overview.php:81
 msgid "Passed attempts %s"
-msgstr ""
+msgstr "Položeni pokušaji% s"
 
 #: templates/admin/reporting/tabs/quizzes/overview.php:91
 msgid "Failed attempts %s"
-msgstr ""
+msgstr "Nepoloženi pokušaji %s"
 
 #: templates/admin/reporting/tabs/quizzes/overview.php:105
 msgid "Quiz events coming soon..."
-msgstr ""
+msgstr "Kviz događaji dolaze uskoro..."
 
 #: templates/admin/reporting/tabs/students/courses-course.php:44
 msgid "Edit course"
-msgstr ""
+msgstr "Uredi kurs"
 
 #: templates/admin/reporting/tabs/students/courses-course.php:57
 msgid "View course reports"
-msgstr ""
+msgstr "Pogledajte izveštaje o kursevima"
 
 #: templates/admin/reporting/tabs/students/courses-course.php:98
 msgid "Completed Date"
-msgstr ""
+msgstr "Datum završetka"
 
 #: templates/admin/reporting/tabs/students/courses-course.php:98
 msgid "Last Activity Date"
-msgstr ""
+msgstr "Datum poslednje aktivnosti"
 
 #: templates/admin/reporting/tabs/students/information.php:25
 #: templates/checkout/form-checkout.php:30
 msgid "Student Information"
-msgstr ""
+msgstr "Informacije o studentu"
 
 #: templates/admin/reporting/tabs/students/information.php:39
 msgid "Registered"
-msgstr ""
+msgstr "Registrovan"
 
 #: templates/admin/reporting/tabs/students/information.php:50
 msgid "Overall Progress"
-msgstr ""
+msgstr "Sveukupni napredak"
 
 #: templates/admin/reporting/tabs/students/information.php:61
 #: templates/myaccount/my-grades-single.php:29
 msgid "Overall Grade"
-msgstr ""
+msgstr "Sveukupna ocena"
 
 #: templates/admin/reporting/tabs/students/information.php:71
 msgid "Achievements earned"
-msgstr ""
+msgstr "Dostignuća otključana"
 
 #: templates/admin/reporting/tabs/students/information.php:81
 msgid "Certificates earned"
-msgstr ""
+msgstr "Sertifikati dobijeni"
 
 #: templates/admin/user-edit.php:25
 msgid "required"
-msgstr ""
+msgstr "neophodno"
 
 #: templates/certificates/loop.php:31
 msgid "You do not have any certificates yet."
-msgstr ""
+msgstr "Nemate još uvek ni jedan sertifikat."
 
 #: templates/checkout/form-checkout.php:28
 #: templates/checkout/form-confirm-payment.php:44
 msgid "Billing Information"
-msgstr ""
+msgstr "Informaciji o naplati"
 
 #: templates/checkout/form-checkout.php:52
 #: templates/checkout/form-confirm-payment.php:62
 msgid "Order Summary"
-msgstr ""
+msgstr "Rezime narudžbine"
 
 #: templates/checkout/form-checkout.php:86
 #: templates/checkout/form-confirm-payment.php:83
 msgid "Payment Details"
-msgstr ""
+msgstr "Detalji o plaćanju"
 
 #: templates/checkout/form-checkout.php:88
 msgid "Enrollment Confirmation"
-msgstr ""
+msgstr "Potvrda o upisu"
 
 #: templates/checkout/form-checkout.php:127
 msgid "Buy Now"
-msgstr ""
+msgstr "Kupi sada"
 
 #: templates/checkout/form-checkout.php:127
 msgid "Enroll Now"
-msgstr ""
+msgstr "Prijavite se sada"
 
 #. Translators: %1$s = opening anchor tag; %2$s = closing anchor tag.
 #: templates/checkout/form-confirm-payment.php:26
 msgid ""
-"Only pending orders can be confirmed. View your %1$sorder history%2$s for "
-"more information"
+"Only pending orders can be confirmed. View your %1$sorder history%2$s for more "
+"information"
 msgstr ""
+"Mogu se potvrditi samo naredbe na čekanju. Za više informacija pogledajte "
+"svoju istoriju %1$s narudžbina %2$s"
 
 #: templates/checkout/form-confirm-payment.php:88
 #: templates/checkout/form-switch-source.php:74
 msgid "Payment Method:"
-msgstr ""
+msgstr "Način plaćanja:"
 
 #: templates/checkout/form-coupon.php:22
 msgid "Have a coupon?"
-msgstr ""
+msgstr "Imate kupon?"
 
 #: templates/checkout/form-coupon.php:23
 msgid "Click here to enter your code"
-msgstr ""
+msgstr "Kliknite ovde kako biste uneli kod"
 
 #: templates/checkout/form-coupon.php:35
 msgid "Coupon Code"
-msgstr ""
+msgstr "Kod na kuponu"
 
 #: templates/checkout/form-coupon.php:50
 msgid "Apply Coupon"
-msgstr ""
+msgstr "Primenite kupon"
 
 #. Translators: %s = coupon code.
 #: templates/checkout/form-coupon.php:64
 msgid "Coupon code \"%s\" has been applied to your order."
-msgstr ""
+msgstr "Kod kupona „%s“ je primenjen na vašu porudžbinu."
 
 #: templates/checkout/form-coupon.php:75
 msgid "Remove Coupon"
-msgstr ""
+msgstr "Ukloni kupon"
 
 #: templates/checkout/form-gateways.php:26
 msgid "Payment processing is currently disabled."
-msgstr ""
+msgstr "Obrada plaćanja trenutno je onemogućena."
 
 #: templates/checkout/form-gateways.php:64
 msgid ""
-"There are no gateways enabled which can support the necessary transaction "
-"type for this access plan."
+"There are no gateways enabled which can support the necessary transaction type "
+"for this access plan."
 msgstr ""
+"Nema omogućenih pristupnih prolaza koji mogu podržati potreban tip transakcije "
+"za ovaj plan pristupa."
 
 #: templates/checkout/form-summary.php:44
 msgid "Access"
-msgstr ""
+msgstr "Pristup"
 
 #: templates/checkout/form-switch-source.php:20
 msgid "Save Payment Method"
-msgstr ""
+msgstr "Sačuvajte način plaćanja"
 
 #: templates/checkout/form-switch-source.php:22
 #: templates/checkout/form-switch-source.php:36
 msgid "Reactivate Subscription"
-msgstr ""
+msgstr "Ponovo aktivirajte pretplatu"
 
 #: templates/checkout/form-switch-source.php:24
 msgid "Save and Pay Now"
-msgstr ""
+msgstr "Usnimi i plati sada"
 
 #. Translators: %s = formatted price / amount due.
 #: templates/checkout/form-switch-source.php:64
 msgid "Due Now: %s"
-msgstr ""
+msgstr "Rok: %s"
 
 #: templates/content-certificate.php:41
 msgid "Print"
-msgstr ""
+msgstr "Odštampaj"
 
 #: templates/content-certificate.php:52
 msgid "Disable sharing"
-msgstr ""
+msgstr "Onemogući deljenje"
 
 #: templates/content-certificate.php:52
 msgid "Enable sharing"
-msgstr ""
+msgstr "Omogući deljenje"
 
 #: templates/course/author.php:23
 msgid "Course Instructor"
 msgid_plural "Course Instructors"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Instruktori kursa"
+msgstr[1] "Instruktori kursa"
+msgstr[2] "Instruktori kursa"
 
 #: templates/course/categories.php:15
 msgid "Categories: "
-msgstr ""
+msgstr "Kategorije:"
 
 #: templates/course/complete-lesson-link.php:113
 msgid "Take Quiz"
-msgstr ""
+msgstr "Započni kviz"
 
 #: templates/course/difficulty.php:21
 msgid "Difficulty: <span class=\"difficulty\">%s</span>"
-msgstr ""
+msgstr "Težina: <span class=\"difficulty\">%s</span>"
 
 #: templates/course/length.php:20
 msgid "Estimated Time: <span class=\"length\">%s</span>"
-msgstr ""
+msgstr "Procenjeno vreme: <span class=\"length\">%s</span>"
 
 #: templates/course/lesson-navigation.php:27
 msgid "Previous Lesson"
-msgstr ""
+msgstr "Prethodna lekcija"
 
 #: templates/course/lesson-navigation.php:40
 msgid "Back to Course"
-msgstr ""
+msgstr "Vrati se na kurs"
 
 #: templates/course/lesson-navigation.php:56 templates/quiz/start-button.php:42
 msgid "Next Lesson"
-msgstr ""
+msgstr "Sledeća lekcija"
 
 #: templates/course/lesson-preview.php:33
 msgctxt "lesson order within section"
 msgid "%1$d of %2$d"
-msgstr ""
+msgstr "%1$d of %2$d"
 
 #: templates/course/meta-wrapper-start.php:20
 msgctxt "course meta info title"
 msgid "Course Information"
-msgstr ""
+msgstr "Informacije o kursu"
 
 #: templates/course/outline-list-small.php:98
 msgid "Open All"
-msgstr ""
+msgstr "Otvori sve"
 
 #: templates/course/outline-list-small.php:100
 msgid "Close All"
-msgstr ""
+msgstr "Zatvori sve"
 
 #: templates/course/parent-course.php:15
 msgid ""
 "<p class=\"llms-parent-course-link\">Back to: <a class=\"llms-lesson-link\" "
 "href=\"%1$s\">%2$s</a></p>"
 msgstr ""
+"<p class=\"llms-parent-course-link\">Vrati se na: <a class=\"llms-lesson-link"
+"\" href=\"%1$s\">%2$s</a></p>"
 
 #: templates/course/prerequisites.php:22
 msgid ""
 "Before starting this course you must complete the required prerequisite "
 "course: %s"
-msgstr ""
+msgstr "Pre početka ovog kursa morate završiti traženi preduslov: %s"
 
 #: templates/course/prerequisites.php:31
 msgid ""
-"Before starting this course you must complete the required prerequisite "
-"track: %s"
+"Before starting this course you must complete the required prerequisite track: "
+"%s"
 msgstr ""
+"Pre nego što započnete ovaj kurs, morate da popunite traženi preduslov: %s"
 
 #: templates/course/syllabus.php:25
 msgid "This course does not have any sections."
-msgstr ""
+msgstr "Ovaj kurs trenutno nema sekcija."
 
 #: templates/course/syllabus.php:57
 msgid "This section does not have any lessons."
-msgstr ""
+msgstr "Ova sekcije trenutno nema lekcije."
 
 #: templates/course/tags.php:15
 msgid "Tags: "
-msgstr ""
+msgstr "Oznake:"
 
 #: templates/course/tracks.php:15
 msgid "Tracks: "
-msgstr ""
+msgstr "Traka: "
 
 #: templates/emails/reset-password.php:11
 msgid "Someone recently requested that the password be reset for %s."
@@ -13253,8 +13258,8 @@ msgid ""
 "If this was a mistake you can ignore this email and your password will not be "
 "changed."
 msgstr ""
-"Ako je ovo bila greška, možete zanemariti ovu e-poštu i vaša lozinka neće "
-"biti promenjena."
+"Ako je ovo bila greška, možete zanemariti ovu e-poštu i vaša lozinka neće biti "
+"promenjena."
 
 #: templates/global/form-registration.php:27
 #: templates/global/form-registration.php:65
